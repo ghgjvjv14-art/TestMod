@@ -1,1 +1,13 @@
 
+name: Build Geode Mod
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    ...
+    
